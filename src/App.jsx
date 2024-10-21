@@ -1,11 +1,13 @@
-import './App.css'
+import React from 'react'
+import Navbar from './sections/navbar.jsx';
+import Hero from './sections/Hero.jsx';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      Hello
-    </>
+    <main className='max-w-7xl mx-auto'>
+      <Navbar/>
+      <Hero/>
+    </main>
   )
 }
 
